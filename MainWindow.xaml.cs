@@ -14,7 +14,7 @@ namespace WpfAppCalculate
         public MainWindow()
         {
             InitializeComponent();
-
+/*
             var mainPanel = new StackPanel();
             RegisterName("MainPanel", mainPanel);
 
@@ -22,6 +22,7 @@ namespace WpfAppCalculate
             //var values = new ButtonsStrings();
             var main2 = new MainTask();
             main2.AddDefaultsButtons(this, mainGrid, values);
+*/
         }
     }
 }

@@ -6,7 +6,7 @@ namespace WpfApp1.CalcVariants
     {
         IItem _nnnn = NoneItem.CreateItem();
         IItem _perc = FunctionItem.CreateItem("%", -1);
-        internal readonly IItem Clear = FunctionItem.CreateItem("C", -1);
+        IItem Clear = FunctionItem.CreateItem("C", -1);
 
         IItem Div = FunctionItem.CreateItem("/", null);
 
