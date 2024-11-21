@@ -5,3 +5,4 @@
 /.vs/WpfApp1
 /bin/Debug/net8.0-windows
 /obj
+/packages
