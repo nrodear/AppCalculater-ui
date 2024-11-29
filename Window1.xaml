@@ -5,14 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppCalculate"
         mc:Ignorable="d"
-        Title="Window1" Height="383" Width="638">
+        Title="Window1" Height="358" Width="608">
     <Grid>
-        <Grid x:Name="MainGrid" Margin="27,19,35,25" >
-            <Button Content="Button" HorizontalAlignment="Left" Margin="471,174,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Grid x:Name="MainGrid" Margin="30,7,9,13" RenderTransformOrigin="0.5,0.5" >
+            <Grid.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.821"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Grid.RenderTransform>
         </Grid>
         <Button Content="Button" HorizontalAlignment="Left"
                 VerticalAlignment="Top"
-                Margin="498,260,0,0"
+                Margin="545,300,0,0"
                 Click="Button_Click" />
 
     </Grid>
