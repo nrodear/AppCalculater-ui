@@ -3,9 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppCalculate", "WpfAppCalculate.csproj", "{BCCE0360-6963-4AFD-A88C-4C5AF9F4F6F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCalculater", "AppCalculater.csproj", "{BCCE0360-6963-4AFD-A88C-4C5AF9F4F6F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C15BA605-45A4-4CE3-8996-EE7C5B004C58} = {C15BA605-45A4-4CE3-8996-EE7C5B004C58}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLib", "..\ClassLibrary1\CalcLib.csproj", "{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnStandardCalc", "..\StandardCalc\OwnStandardCalc.csproj", "{72830690-EF1A-4DB5-9566-9F25F8CD6628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnBasicCalc", "..\BasicCalc\OwnBasicCalc.csproj", "{C15BA605-45A4-4CE3-8996-EE7C5B004C58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,14 @@ Global
 		{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72830690-EF1A-4DB5-9566-9F25F8CD6628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72830690-EF1A-4DB5-9566-9F25F8CD6628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72830690-EF1A-4DB5-9566-9F25F8CD6628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72830690-EF1A-4DB5-9566-9F25F8CD6628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C15BA605-45A4-4CE3-8996-EE7C5B004C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C15BA605-45A4-4CE3-8996-EE7C5B004C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C15BA605-45A4-4CE3-8996-EE7C5B004C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C15BA605-45A4-4CE3-8996-EE7C5B004C58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

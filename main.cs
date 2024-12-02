@@ -1,6 +1,8 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using BasicCalc.Standard;
 using CalcLib.Engine;
+using CalcLib.Types;
 using CalcLib.UI;
 
 namespace WpfAppCalculate
@@ -13,7 +15,8 @@ namespace WpfAppCalculate
             that.RegisterName("MainPanel", mainPanel);
 
             // load type of calc 
-            var values = new CalcLib.CalcVariants.ButtonDefaultValues();
+            // IButtonValues values = new StandardCalc.Standard.ButtonValues();
+            IButtonValues values = new ButtonValues();
 
             var width = values.GetX * ButtonCore.Width;
 

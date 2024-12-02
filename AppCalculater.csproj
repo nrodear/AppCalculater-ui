@@ -9,7 +9,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\BasicCalc\OwnBasicCalc.csproj" />
 	  <ProjectReference Include="..\ClassLibrary1\CalcLib.csproj" />
+	  <ProjectReference Include="..\StandardCalc\OwnStandardCalc.csproj" />
 	</ItemGroup>
 
 </Project>
