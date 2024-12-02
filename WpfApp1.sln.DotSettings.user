@@ -5,10 +5,27 @@
     &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.MethodsTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=31f4379e_002D703f_002D434d_002Da24a_002D6d9710b3f3a5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetValueUsingDelegates_ArgTypTwo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=31f4379e_002D703f_002D434d_002Da24a_002D6d9710b3f3a5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetValueUsingDelegates_ArgTypTwo" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.ValuesTests.GetValueUsingDelegates_ArgTypTwo&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.MethodsTests.Methods_allTest&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.ValuesTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=5c95ddfc_002D67e9_002D46e4_002D84a0_002Da58c1306a6cb/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetValueUsingDelegates_Percent" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.ValuesTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.MethodsTests.Methods_allTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9119936c_002Dfb8a_002D4a1b_002Db6ba_002D8067bb5e215f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetValueUsingDelegates_Attributes" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.ValuesTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.MethodsTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f621293b_002Dc608_002D4f96_002Da415_002D87856d3c6bb7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetValueUsingDelegates_ArgTypTwo #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::916D9A97-FAED-4794-B86B-F3DFDC3BDF3A::.NETFramework,Version=v4.7.2::CalcLib.EngineTests.ValuesTests.GetValueUsingDelegates_ArgTypTwo&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

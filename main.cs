@@ -20,12 +20,15 @@ namespace WpfAppCalculate
             var textBoxes = new TextBoxes();
             var textBox = textBoxes.GetTextBox(10, 20, width);
             Elements.SetTextBox(textBox);
+            
             that.RegisterName("textBox", textBox);
             grid.Children.Add(textBox);
 
             //var values = new ButtonsStrings();
             var buttonCore = ButtonCore.GetInstance(40, 20);
             buttonCore.AddDefaultsButtons(that, grid, values);
+
+
         }
     }
 }
