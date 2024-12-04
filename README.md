@@ -2,10 +2,6 @@
 
 Calulater sample with different type of calc´s
 
-req:
-AppCalculater-ui
-CalcLib
+req prj: AppCalculater-ui and CalcLib
 
-2 demos
-BasicCalc
-StandardCalc
+2 demo impl: BasicCalc or StandardCalc
