@@ -18,11 +18,13 @@ namespace WpfAppCalculate
 {
     public partial class WindowMain : Window
     {
+        private AppActions actions;
+
         public WindowMain()
         {
             InitializeComponent();
 
-            var actions = new AppActions();
+            actions = new AppActions();
             actions.Init(this, MainGrid);
         }
 
@@ -31,5 +33,11 @@ namespace WpfAppCalculate
             this.Close();
         }
 
+        private void button_Click_1(object sender, RoutedEventArgs e)
+        {
+            actions.LoadAssembly();
+
+
+        }
     }
 }

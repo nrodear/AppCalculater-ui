@@ -1,37 +1,77 @@
-﻿using System.Windows;
+﻿using System.Reflection;
+using System.Windows;
 using System.Windows.Controls;
-using BasicCalc.Standard;
 using CalcLib.Engine;
 using CalcLib.Types;
 using CalcLib.UI;
+using Microsoft.Win32;
 
 namespace WpfAppCalculate
 {
     internal class AppActions()
     {
-        public void Init(Window that, Grid grid)
+        private Window window;
+        private StackPanel mainPanel = new StackPanel();
+        private Grid grid;
+
+        public void Init(Window window, Grid grid)
         {
-            var mainPanel = new StackPanel();
-            that.RegisterName("MainPanel", mainPanel);
+            if (window == null) throw new ArgumentNullException(nameof(window));
+            if (grid == null) throw new ArgumentNullException(nameof(grid));
+
+            this.window = window;
+            this.grid = grid;
+        }
+
+        private void unLoadUiElements()
+        {
+            grid.Children.Clear();
+        }
+
+        private void AddUiButtons(IButtonValues values)
+        {
+            grid.Children.Clear();
 
             // load type of calc 
             // IButtonValues values = new StandardCalc.Standard.ButtonValues();
-            IButtonValues values = new ButtonValues();
+            // IButtonValues values = new ButtonValues();
 
             var width = values.GetX * ButtonCore.Width;
 
             var textBoxes = new TextBoxes();
             var textBox = textBoxes.GetTextBox(10, 20, width);
             Elements.SetTextBox(textBox);
-            
-            that.RegisterName("textBox", textBox);
             grid.Children.Add(textBox);
 
             //var values = new ButtonsStrings();
             var buttonCore = ButtonCore.GetInstance(40, 20);
-            buttonCore.AddDefaultsButtons(that, grid, values);
+            buttonCore.AddDefaultsButtons(window, grid, values);
+        }
 
 
+        private string GetFilenameDialog()
+        {
+            string path = @"C:\Users\ngerlach\source\repos\wpf_calc";
+            OpenFileDialog dialog = new OpenFileDialog()
+            {
+                FileName = path,
+              DefaultExt  = "*.dll"
+                
+            };
+            dialog.ShowDialog();
+            return dialog.FileName;
+        }
+
+        public void LoadAssembly()
+        {
+            var file = GetFilenameDialog();
+            var assembly = Assembly.LoadFrom(file);
+
+            Type type = assembly.GetTypes().First(t => t.Name.Contains("ButtonValues"));
+
+            var buttonValues = Activator.CreateInstance(type) as IButtonValues;
+
+            AddUiButtons(buttonValues);
         }
     }
 }

@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppCalculater", "AppCalculater.csproj", "{BCCE0360-6963-4AFD-A88C-4C5AF9F4F6F7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C15BA605-45A4-4CE3-8996-EE7C5B004C58} = {C15BA605-45A4-4CE3-8996-EE7C5B004C58}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcLib", "..\ClassLibrary1\CalcLib.csproj", "{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}"
 EndProject
