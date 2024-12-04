@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ngerlach\\source\\repos\\wpf_calc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}|..\\ClassLibrary1\\CalcLib.csproj|c:\\users\\ngerlach\\source\\repos\\classlibrary1\\engine\\values.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{916D9A97-FAED-4794-B86B-F3DFDC3BDF3A}|..\\ClassLibrary1\\CalcLib.csproj|c:\\users\\ngerlach\\source\\repos\\classlibrary1\\ui\\buttoncore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72830690-EF1A-4DB5-9566-9F25F8CD6628}|..\\StandardCalc\\OwnStandardCalc.csproj|c:\\users\\ngerlach\\source\\repos\\standardcalc\\standard\\buttonvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72830690-EF1A-4DB5-9566-9F25F8CD6628}|..\\StandardCalc\\OwnStandardCalc.csproj|c:\\users\\ngerlach\\source\\repos\\standardcalc\\standard\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 150,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Values.cs",
+              "DocumentMoniker": "C:\\Users\\ngerlach\\source\\repos\\ClassLibrary1\\Engine\\Values.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\Engine\\Values.cs",
+              "ToolTip": "C:\\Users\\ngerlach\\source\\repos\\ClassLibrary1\\Engine\\Values.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\Engine\\Values.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAvwHMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:58:34.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ButtonCore.cs",
+              "DocumentMoniker": "C:\\Users\\ngerlach\\source\\repos\\ClassLibrary1\\UI\\ButtonCore.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary1\\UI\\ButtonCore.cs",
+              "ToolTip": "C:\\Users\\ngerlach\\source\\repos\\ClassLibrary1\\UI\\ButtonCore.cs",
+              "RelativeToolTip": "..\\ClassLibrary1\\UI\\ButtonCore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:57:48.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonValues.cs",
+              "DocumentMoniker": "C:\\Users\\ngerlach\\source\\repos\\StandardCalc\\standard\\ButtonValues.cs",
+              "RelativeDocumentMoniker": "..\\StandardCalc\\standard\\ButtonValues.cs",
+              "ToolTip": "C:\\Users\\ngerlach\\source\\repos\\StandardCalc\\standard\\ButtonValues.cs",
+              "RelativeToolTip": "..\\StandardCalc\\standard\\ButtonValues.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:56:10.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Methods.cs",
+              "DocumentMoniker": "C:\\Users\\ngerlach\\source\\repos\\StandardCalc\\standard\\Methods.cs",
+              "RelativeDocumentMoniker": "..\\StandardCalc\\standard\\Methods.cs",
+              "ToolTip": "C:\\Users\\ngerlach\\source\\repos\\StandardCalc\\standard\\Methods.cs",
+              "RelativeToolTip": "..\\StandardCalc\\standard\\Methods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T12:56:00.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
