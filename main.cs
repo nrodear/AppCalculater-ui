@@ -8,31 +8,16 @@ using Microsoft.Win32;
 
 namespace AppCalculator
 {
-    internal class AppActions()
+    internal class AppActions(Window window, Grid grid)
     {
-        private Window window;
-        private StackPanel mainPanel = new StackPanel();
-        private Grid? grid;
-
-        public void Init(Window window, Grid grid)
-        {
-            if (window == null) throw new ArgumentNullException(nameof(window));
-            if (grid == null) throw new ArgumentNullException(nameof(grid));
-
-            this.window = window;
-            this.grid = grid;
-        }
+        private Window window = window;
+        private Grid grid = grid;
 
         private void AddUiButtons(IButtonValues values)
         {
-            grid?.Children.Clear();
-
-            // load type of calc 
-            // IButtonValues values = new StandardCalc.Standard.ButtonValues();
-            // IButtonValues values = new ButtonValues();
+            grid.Children.Clear();
 
             var width = values.GetX * ButtonCore.Width;
-
             var textBoxes = new TextBoxes();
             var textBox = textBoxes.GetTextBox(10, 20, width);
             Elements.SetTextBox(textBox);
@@ -43,15 +28,13 @@ namespace AppCalculator
             buttonCore.AddDefaultsButtons(window, grid, values);
         }
 
-
         private string GetFilenameDialog()
         {
-            string path = @"C:\Users\ngerlach\source\repos\wpf_calc";
+            string path = @".\repos\wpf_calc";
             OpenFileDialog dialog = new OpenFileDialog()
             {
                 FileName = path,
-              DefaultExt  = "*.dll"
-                
+                DefaultExt = "*.dll"
             };
             dialog.ShowDialog();
             return dialog.FileName;
@@ -65,6 +48,13 @@ namespace AppCalculator
             Type type = assembly.GetTypes().First(t => t.Name.Contains("ButtonValues"));
 
             var buttonValues = Activator.CreateInstance(type) as IButtonValues;
+
+            if (buttonValues == null)
+            {
+                throw new ArgumentNullException(nameof(buttonValues));
+            }
+
+            ;
 
             AddUiButtons(buttonValues);
         }

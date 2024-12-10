@@ -10,8 +10,7 @@ namespace AppCalculator
         {
             InitializeComponent();
 
-            actions = new AppActions();
-            actions.Init(this, MainGrid);
+            actions = new AppActions(this, MainGrid);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -22,8 +21,6 @@ namespace AppCalculator
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
             actions.LoadAssembly();
-
-
         }
     }
 }
