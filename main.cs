@@ -1,18 +1,18 @@
 ﻿using System.Reflection;
 using System.Windows;
 using System.Windows.Controls;
-using CalcLib.Engine;
-using CalcLib.Types;
-using CalcLib.UI;
+using LibCalc.Engine;
+using LibCalc.Types;
+using LibCalc.UI;
 using Microsoft.Win32;
 
-namespace WpfAppCalculate
+namespace AppCalculator
 {
     internal class AppActions()
     {
         private Window window;
         private StackPanel mainPanel = new StackPanel();
-        private Grid grid;
+        private Grid? grid;
 
         public void Init(Window window, Grid grid)
         {
@@ -23,14 +23,9 @@ namespace WpfAppCalculate
             this.grid = grid;
         }
 
-        private void unLoadUiElements()
-        {
-            grid.Children.Clear();
-        }
-
         private void AddUiButtons(IButtonValues values)
         {
-            grid.Children.Clear();
+            grid?.Children.Clear();
 
             // load type of calc 
             // IButtonValues values = new StandardCalc.Standard.ButtonValues();

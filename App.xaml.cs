@@ -1,7 +1,7 @@
 ﻿
 using System.Windows;
 
-namespace WpfAppCalculate
+namespace AppCalculator
 {
     /// <summary>
     /// Interaction logic for App.xaml
